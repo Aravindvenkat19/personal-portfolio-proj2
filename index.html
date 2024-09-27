@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome Icon Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Tab Image -->
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#home" id="navbar-logo">AV</a>
+        <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="#hero" class="navbar-links" id="home-page">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#project" class="navbar-links" id="portfolio-page"
+              >Portfolio</a
+            >
+          </li>
+          <li class="navbar-item">
+            <a href="#about" class="navbar-links" id="about-page">About Me</a>
+          </li>
+          <li class="navbar-btn">
+            <button onclick="location.href='#contact-sec' " class="button" id="contact">Contact Me</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="head" id="hero">
+      <div class="header-container">
+        <div class="header-content">
+          <h5>Hey, I am Aravind</h5>
+          <h1>
+            I create <span style="color: #5e3bee">product design</span> and
+            brand experience
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cum
+            quam deserunt expedita quisquam quibusdam! Consequuntur vero aut
+            maxime doloremque?
+          </p>
+          <button class="header-btn"><a href="#">Get In Touch</a></button>
+        </div>
+        <div class="header-content-img">
+          <div class="head-img-container">
+            <img src="public/images/Photo.jpg" alt="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills" id="skills">
+      <h5>My Skills</h5>
+      <h1>My Expertise</h1>
+      <div class="skills-wrapper">
+        <div class="skills-card">
+          <!-- <div class="icon-card"><i class="fa-sharp-duotone fa-solid fa-box"></i></div> -->
+          <div class="icon-card">
+            <img src="/public/images/direction.png" alt="icon" />
+          </div>
+          <h2>Strategy & Direction</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            cum excepturi consequuntur impedit, doloribus provident?
+          </p>
+        </div>
+        <div class="skills-card">
+          <!-- <div class="icon-card"><i class="fa-solid fa-file-contract"></i></div> -->
+          <div class="icon-card">
+            <img src="/public/images/consistency.png" alt="icon" />
+          </div>
+          <h2>Branding & Logo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            cum excepturi consequuntur impedit, doloribus provident?
+          </p>
+        </div>
+        <div class="skills-card">
+          <!-- <div class="icon-card"><i class="fa-brands fa-uikit"></i></div> -->
+          <div class="icon-card">
+            <img src="/public/images/feather.png" alt="icon" />
+          </div>
+          <h2>UI & UX Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            cum excepturi consequuntur impedit, doloribus provident?
+          </p>
+        </div>
+        <div class="skills-card">
+          <!-- <div class="icon-card"><i class="fa-solid fa-code"></i></div>  -->
+          <div class="icon-card">
+            <img src="/public/images/html.png" alt="icon" />
+          </div>
+          <h2>Webflow Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            cum excepturi consequuntur impedit, doloribus provident?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about" id="about">
+      <div class="about-container">
+        <div class="about-img-container">
+          <img
+            class="img-cls"
+            src="public/images/New Photo 2024.jpg"
+            alt="img"
+          />
+        </div>
+        <div class="about-content">
+          <h5>About</h5>
+          <h1>About Me</h1>
+          <p>
+            Ambitious front-end developer with a strong skill set in HTML, CSS,
+            JavaScript, and SQL. Proficient in creating visually appealing and
+            user-friendly interfaces while consistently achieving project
+            objectives. Currently enrolled in a React JS course to strengthen my
+            skills and knowledge, and eager to contribute technical skills and
+            creativity to a dynamic development team
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="project" id="project">
+      <h5>Recents Projects</h5>
+      <div class="project-btn">
+        <h1>My Portfolio</h1>
+        <button class="proj-btn">
+          <a
+            href="https://github.com/Aravindvenkat19?tab=repositories"
+            target="_blank"
+            >Visit My Git</a
+          >
+        </button>
+      </div>
+      <div class="project-wrapper">
+        <div class="project-card">
+          <div class="proj-img">
+            <img src="/public/images/NEXT-Proj-image.png" alt="proj-image" />
+          </div>
+          <h3>NEXT Website</h3>
+          <p>
+            This is the Responsive Website called NEXT done with Using Html,CSS and JavaScript.
+          </p>
+          <div class="gitbtn">
+            <button class="git-btn">
+              <a
+                href="https://github.com/Aravindvenkat19/NEXT_Webpage"
+                target="_blank"
+                >View in Git <i class="fa-solid fa-right-long"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="proj-img">
+            <img
+              src="/public/images/Tic-Tac-Toe-Proj-img.png"
+              alt="proj-image"
+            />
+          </div>
+          <h3>Tic-Tac-Toe React</h3>
+          <p>
+           This is the First Basic Project I have done in React its a X & O Game.
+          </p>
+          <div class="gitbtn">
+            <button class="git-btn">
+              <a
+                href="https://github.com/Aravindvenkat19/React-tic-tac-toe"
+                target="_blank"
+                >View in Git <i class="fa-solid fa-right-long"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="proj-img">
+            <img src="/public/images/Personal-proj-img.png" alt="proj-image" />
+          </div>
+          <h3>Personal Website</h3>
+          <p>
+            This is a personal Responeive website in resume Model check out->.
+          </p>
+
+          <div class="gitbtn">
+            <button class="git-btn">
+              <a
+                href="https://github.com/Aravindvenkat19/AV-Personal-Webpage"
+                target="_blank"
+                >View in Git <i class="fa-solid fa-right-long"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section Form -->
+
+    <div class="contact-container" id="contact-sec">
+      <div class="contact-content">
+        <h5>Get in Touch</h5>
+        <h1>Contact me</h1>
+        <p>You can contact me via this form.</p>
+      </div>
+
+      <div class="form-container">
+        <form action="#">
+          <div class="form-row">
+
+          <div>
+          <label for="first-Name">First Name</label>
+          <input type="text" id="first-Name" name="first-Name" placeholder="First Name" />
+          </div>
+
+          <div>
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name" />
+          </div>
+
+          </div>
+
+          <div class="form-row">
+          <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" autocomplete="off"/>
+          </div>
+
+          <div>
+          <label for="phone-number">Phone number</label>
+          <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" />
+          </div>
+          
+          </div>
+
+          <label for="topic">Choose a topic</label>
+          <select name="topic" id="topic">
+            <option value="">Select one...</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+          </select>
+          <br>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="type your message..." rows="7" cols="45"></textarea>
+
+          <label>
+            <input type="checkbox" id="terms" name="terms">
+            I accept the terms
+          </label>
+
+          <button type="submit"><a href="#">Submit</a></button>
+
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-container">
+      <div class="social-media-wrap">
+        <div class="footer-heading">
+          <a href="/" id="footer-logo">AV</a>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-link-items">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">About Me</a>
+            <a href="#">Contact</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Portfolio</a>
+          </div>
+        </div>
+
+        <div class="sm-icons">
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="social-icon-link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+
+      <hr />
+      <div class="footer-service">
+        <p>Made With 💖 by Aravind</p>
+
+        <div class="footer-service-list">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies Settings</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
